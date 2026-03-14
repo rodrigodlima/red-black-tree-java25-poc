@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class BinarySearchTree {
     private Node root;
     
@@ -5,6 +7,12 @@ public class BinarySearchTree {
         this.root = root;
         if (root == null) {
             System.out.println("value null");
+        }
+    }
+    
+    public void insert(int value) {
+        if (Objects.isNull(value)) {
+            BinarySearchTree tree = new BinarySearchTree(root)
         }
     }
 }
