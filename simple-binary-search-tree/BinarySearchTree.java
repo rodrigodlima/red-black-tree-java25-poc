@@ -11,11 +11,11 @@ public class BinarySearchTree {
     }
     
     public void insert(int value) {
+        if (root == null) {
+            BinarySearchTree == 
+        }
         while (root != null) {
             if root.value 
-        }
-        if (root == null) {
-            BinarySearchTree tree = new BinarySearchTree(root)
         }
     }
 }
@@ -30,6 +30,15 @@ class Node {
         this.value = value;
         this.leftChild = leftChild;
         this.rightChild = rightChild;
+    }
+    public int getValue() {
+        return value;
+    }
+    public Node getLeftChild() {
+        return leftChild;
+    }
+    public Node getRightChild() {
+        return rightChild;
     }
 }
 
