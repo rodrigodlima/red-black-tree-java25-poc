@@ -11,7 +11,10 @@ public class BinarySearchTree {
     }
     
     public void insert(int value) {
-        if (Objects.isNull(value)) {
+        while (root != null) {
+            if root.value 
+        }
+        if (root == null) {
             BinarySearchTree tree = new BinarySearchTree(root)
         }
     }
