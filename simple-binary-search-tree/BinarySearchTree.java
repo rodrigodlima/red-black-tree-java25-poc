@@ -3,9 +3,11 @@ public class BinarySearchTree {
     
     public BinarySearchTree(Node root) {
         this.root = root;
+        if (root == null) {
+            System.out.println("value null");
+        }
     }
 }
-
 
 
 class Node {
